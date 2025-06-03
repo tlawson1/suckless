@@ -18,6 +18,13 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
 
+/* Systray settings */
+static const unsigned int systrayspacing = 2;         /* spacing between systray icons */
+static const int systrayonleft            = 0;        /* 0: systray in the right corner, >0: left of status text */
+static const int showsystray              = 1;        /* 0 means no systray */
+static const unsigned int systraypinning  = 0;        /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+static const int systraypinningfailfirst  = 1;        /* 1: if pinning fails, display systray on the first monitor, 0: last monitor */
+
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
