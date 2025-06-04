@@ -104,7 +104,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	/* Custom keys */
 	{ MODKEY,                       XK_Delete, spawn,          SHCMD("slock") },
-	{ MODKEY,                       XK_Delete, spawn,          SHCMD("flameshot gui") },
+	{ MODKEY,                       XK_a, spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,                       XK_q,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%- ") },
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%+ ") },
 };
