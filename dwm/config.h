@@ -102,6 +102,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	/* Custom keys */
+	{ MODKEY,                       XK_Delete, spawn,          SHCMD("slock") },
 };
 
 /* button definitions */
