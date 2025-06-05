@@ -104,10 +104,12 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	/* Custom keys */
 	{ MODKEY,                       XK_Delete, spawn,          SHCMD("slock") },
-	{ MODKEY,                       XK_a, 	   spawn,          SHCMD("flameshot gui") },
+	{ MODKEY,                       XK_a,      spawn,          SHCMD("flameshot gui") },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          SHCMD("bash ~/.misc/Tools/random_wallpaper.sh") },
 	{ MODKEY,                       XK_q,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%-") },
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%+") },
+	{ MODKEY,                       XK_z,      spawn,          SHCMD("brightnessctl set 10%-") },
+	{ MODKEY,                       XK_x,      spawn,          SHCMD("brightnessctl set 10%+") },
 };
 
 /* button definitions */
