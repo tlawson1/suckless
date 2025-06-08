@@ -105,6 +105,7 @@ static const Key keys[] = {
 	/* Custom keys */
 	{ MODKEY,                       XK_Delete, spawn,          SHCMD("slock") },
 	{ MODKEY,                       XK_a,      spawn,          SHCMD("flameshot gui") },
+	{ MODKEY,                       XK_e,      spawn,          SHCMD("firefox") },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          SHCMD("bash ~/.misc/Tools/random_wallpaper.sh") },
 	{ MODKEY,                       XK_q,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%-") },
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("wpctl set-volume @DEFAULT_SINK@ 5%+") },
